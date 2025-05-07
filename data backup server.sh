@@ -13,7 +13,7 @@
 # Ausschlussdatei neu anlegen, nur falls noch keine existiert:  
 touch $nosave  
 
-sudo mount -o rw,user=fickdich $backupdevice $mountpoint # mount backup device
+sudo mount -o rw,user="" $backupdevice $mountpoint # mount backup device
 
 # Archive Backup to old function
 function old ()
